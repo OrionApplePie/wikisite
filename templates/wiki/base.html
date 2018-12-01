@@ -1,0 +1,16 @@
+{% extends "wiki/base_site.html" %}
+
+{% block wiki_site_title %} База знаний - Wiki{% endblock %}
+
+{% block wiki_header_branding %}
+<a class="navbar-brand" href="/">Admins</a>
+{% endblock %}
+
+{% block wiki_header_navlinks %}
+<ul class="nav navbar-nav">
+  <li class="active"><a href="{% url 'wiki:root' %}">Wiki</a></li>
+</ul>
+{% endblock %}
+
+{% block wiki_footer_logo %}
+{% endblock %}
